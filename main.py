@@ -14,14 +14,14 @@ def game(lives):
             print("Too low")
             lives-=1
             if lives==0:
-                print("You lost! The number was {chosen_num}")
+                print(f"You lost! The number was {chosen_num}")
                 break
             print(f"You have {lives} attempts remaining to guess the number")
         else:
             print("Too high like Snoop Dogg")
             lives-=1
             if lives==0:
-                print("You lost! The number was {chosen_num}")
+                print(f"You lost! The number was {chosen_num}")
                 break
             print(f"You have {lives} attempts remaining to guess the number")
 
